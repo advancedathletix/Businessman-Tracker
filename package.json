@@ -1,0 +1,24 @@
+{
+  "name": "businessman-tracker",
+  "version": "1.0.0",
+  "description": "this app will allow for the owners of companies to organize and manage there employees and departments better for better productivity in the work place",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/advancedathletix/Businessman-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/advancedathletix/Businessman-Tracker/issues"
+  },
+  "homepage": "https://github.com/advancedathletix/Businessman-Tracker#readme",
+  "dependencies": {
+    "inquirer": "^8.2.1",
+    "mysql2": "^2.3.3"
+  }
+}
