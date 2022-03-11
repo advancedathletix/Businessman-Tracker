@@ -4,7 +4,8 @@
   "description": "this app will allow for the owners of companies to organize and manage there employees and departments better for better productivity in the work place",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node DAL.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,9 @@
     "express": "^4.17.3",
     "inquirer": "^8.2.1",
     "mysql2": "^2.3.3"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
 }
