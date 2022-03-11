@@ -2,10 +2,9 @@
   "name": "businessman-tracker",
   "version": "1.0.0",
   "description": "this app will allow for the owners of companies to organize and manage there employees and departments better for better productivity in the work place",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "jest",
-    "start": "node DAL.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -21,10 +20,10 @@
   "dependencies": {
     "express": "^4.17.3",
     "inquirer": "^8.2.1",
-    "mysql2": "^2.3.3"
+    "mysql2": "^2.3.3",
+    "node": "^17.5.0"
   },
   "directories": {
     "lib": "lib"
-  },
-  "devDependencies": {}
+  }
 }
