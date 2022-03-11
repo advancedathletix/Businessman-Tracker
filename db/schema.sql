@@ -6,4 +6,15 @@ CREATE TABLE department (
   name VARCHAR(30) NOT NULL
 );
 
-  
+CREATE TABLE role 
+(id INT AUTO_INCREMENT PRIMARY KEY,
+title VARCHAR(30) UNIQUE NOT NULL, 
+salary DECIMAL(10.3) NOT NULL, 
+department_id INT NOT NULL);
+
+
+  CREATE TABLE employee (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  first_name VARCHAR(45) NOT NULL,
+  last_name VARCHAR(45) NOT NULL,
+  role_id INT NOT NULL);
